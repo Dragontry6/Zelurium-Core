@@ -1,0 +1,8 @@
+---
+spruce_planks:
+  label: §cPlanche de sapin
+  stringNameItem: spruce_planks
+  prixAchat: 12
+  prixVente: 21
+  category: "0"
+...

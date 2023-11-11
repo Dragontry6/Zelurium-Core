@@ -1,0 +1,21 @@
+name: zCore
+author: VisKa_Raze
+main: viskaraze\zCore
+version: 1.0.0
+api: 5.0.0
+description: Core of Zélurium KitMap
+depend:
+  - EconomyAPI
+
+permissions:
+  everyone:
+    default: true
+    description: Permission de base
+  clearlag.use:
+    default: op
+  shop.add:
+    default: op
+  op:
+    default: op
+  nexus.start:
+    default: op

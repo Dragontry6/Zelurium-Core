@@ -1,0 +1,41 @@
+---
+Nexus-Settings:
+  entity-name: "NexusEvent"
+  entity-nametag: "§lNexus  §c{health}§f/§4{max_health} HP"
+  entity-maxhealth: 4000
+  player-teleport: "278:66:247:nexus"
+  AutoSpawn:
+    position: "276:92:427:world"
+    timer: 14400
+  Reward:
+    drop-height: 4.2
+    drop-distance: 0.7
+    #Id, Meta, Count (or) Id, Meta, Count, Enchantment Name, Enchantment Level
+    Item:
+      - "diamond, 5" #No Enchant
+      - "diamond, 5" #No Enchant
+      - "diamond, 5" #No Enchant
+      - "diamond, 1, protection, 4"
+      - "diamond, 1, protection, 4"
+      - "diamond, 10"
+
+drop-item: false
+clear-item: true
+maxItem:
+  soupe:
+    name: beetroot
+    max: 64
+    ##  gapple:
+  ##  id: gapple
+    ##   meta: 0
+    ##   max: 8
+    ##  ender:
+  ##  id: 368
+    ##   ##   meta: 0
+    ## max: 16
+
+ ## briquet:
+    ##   id: 259
+    ##   meta: 0
+  ##   max: 0
+---
